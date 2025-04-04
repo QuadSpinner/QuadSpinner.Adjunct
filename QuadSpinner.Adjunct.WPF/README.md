@@ -61,16 +61,9 @@ Brush accent = WPF.GetBrush(BrushName.Blue, BrushSet.Strong);
 SolidColorBrush solid = WPF.GetSolidColorBrush(\"Accent-Green\");
 ```
 
-### Window Helpers
-
-```csharp
-myWindow.PositionWindowOnMonitor(1);  // Snap to second monitor
-```
-
 ### Miscellaneous
 
 ```csharp
-string formatted = someFloat.Sanitize();
 byte[] imageBytes = ...;
 BitmapSource bmp = imageBytes.ToBitmapSource(256);
 ```

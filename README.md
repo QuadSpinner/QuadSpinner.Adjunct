@@ -93,19 +93,6 @@ element.Enable();
 var brush = WPF.GetBrush(BrushName.Blue, BrushSet.Muted);
 ```
 
-### 🖼️ Monitor-Aware Windows
-
-```csharp
-window.PositionWindowOnMonitor(1); // Snap to second monitor
-```
-
-### 🛠 Miscellaneous
-
-```csharp
-float f = 42.195f;
-string nice = f.Sanitize();
-```
-
 ---
 
 ## 🛠 Feature Toggle

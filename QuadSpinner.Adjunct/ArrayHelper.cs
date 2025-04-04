@@ -2,7 +2,7 @@
 
 public static class ArrayHelper
 {
-    internal static float[] Copy(this float[] array)
+    public static float[] Copy(this float[] array)
     {
         if (array.Length > 67108864) // 8K
         {
@@ -14,7 +14,7 @@ public static class ArrayHelper
         return copy;
     }
 
-    internal static byte[] Copy(this byte[] array)
+    public static byte[] Copy(this byte[] array)
     {
         byte[] copy = new byte[array.Length];
         Buffer.BlockCopy(array, 0, copy, 0, array.Length);

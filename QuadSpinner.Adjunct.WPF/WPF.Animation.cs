@@ -3,9 +3,9 @@ using System.Windows.Media.Animation;
 
 namespace QuadSpinner.Adjunct.WPF;
 
-internal static partial class WPF
+public static partial class WPF
 {
-    internal static void FadeOutAndCollapse(this FrameworkElement element, double durationInSeconds = 0.5)
+    public static void FadeOutAndCollapse(this FrameworkElement element, double durationInSeconds = 0.5)
     {
         if (Features.DisableAnimations)
         {
@@ -32,7 +32,7 @@ internal static partial class WPF
         element.BeginAnimation(UIElement.OpacityProperty, fadeOutAnimation);
     }
 
-    internal static void FadeOut(this FrameworkElement element, double durationInSeconds = 0.5, double to = 0.0)
+    public static void FadeOut(this FrameworkElement element, double durationInSeconds = 0.5, double to = 0.0)
     {
         if (Features.DisableAnimations)
         {
@@ -57,7 +57,7 @@ internal static partial class WPF
         element.BeginAnimation(UIElement.OpacityProperty, fadeOutAnimation);
     }
 
-    internal static void FadeIn(this FrameworkElement element, double durationInSeconds = 0.2, double to = 1.0)
+    public static void FadeIn(this FrameworkElement element, double durationInSeconds = 0.2, double to = 1.0)
     {
         if (Features.DisableAnimations)
         {
@@ -82,7 +82,7 @@ internal static partial class WPF
         element.BeginAnimation(UIElement.OpacityProperty, fadeInAnimation);
     }
 
-    internal static void FadeInAndShow(this FrameworkElement element, double durationInSeconds = 0.15, double delay = 0)
+    public static void FadeInAndShow(this FrameworkElement element, double durationInSeconds = 0.15, double delay = 0)
     {
         if (Features.DisableAnimations)
         {

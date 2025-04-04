@@ -1,0 +1,1 @@
+# QuadSpinner.Adjunct

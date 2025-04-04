@@ -13,8 +13,8 @@ It delivers ultra-light syntax sugar, aggressive inlining, and thoughtfully craf
 
 | Package                     | NuGet                             | Version                         |
 |-----------------------------|-----------------------------------|---------------------------------|
-| `QuadSpinner.Adjunct`       | `install-package QuadSpinner.Adjunct` | ![NuGet](https://img.shields.io/nuget/v/QuadSpinner.Adjunct.svg) |
-| `QuadSpinner.Adjunct.WPF`   | `install-package QuadSpinner.Adjunct.WPF` | ![NuGet](https://img.shields.io/nuget/v/QuadSpinner.Adjunct.WPF.svg) |
+| `QuadSpinner.Adjunct`       | `install-package QuadSpinner.Adjunct` |  ![NuGet](https://img.shields.io/nuget/v/QuadSpinner.Adjunct.svg) |
+| `QuadSpinner.Adjunct.WPF`   | `install-package QuadSpinner.Adjunct.WPF` |  ![NuGet](https://img.shields.io/nuget/v/QuadSpinner.Adjunct.WPF.svg) |
 
 ---
 

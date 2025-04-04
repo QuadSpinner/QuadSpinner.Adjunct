@@ -9,7 +9,7 @@ using Application = System.Windows.Application;
 using Brush = System.Windows.Media.Brush;
 using ListBox = System.Windows.Controls.ListBox;
 
-namespace QuadSpinner.Adjunct.WPF
+namespace QuadSpinner.Adjunct
 {
     public enum BrushName
     {
@@ -105,21 +105,20 @@ namespace QuadSpinner.Adjunct.WPF
             storyboard.Begin();
         }
 
-        public static void Delay(Action action, int milliseconds = 150)
+        public static void Delay(Action action, int milliseconds = 150, bool useDispatcher = false)
         {
             Task.Run(() =>
             {
                 Task.Delay(TimeSpan.FromMilliseconds(milliseconds));
-                action.Invoke();
-            });
-        }
 
-        public static void Dispatcher(Action action, int milliseconds = 150)
-        {
-            Task.Run(() =>
-            {
-                Task.Delay(TimeSpan.FromMilliseconds(milliseconds));
-                Application.Current.Dispatcher.BeginInvoke(DispatcherPriority.Render, action);
+                if (useDispatcher)
+                {
+                    Application.Current.Dispatcher.BeginInvoke(DispatcherPriority.Render, action);
+                }
+                else
+                {
+                    action.Invoke();
+                }
             });
         }
 

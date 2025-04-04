@@ -12,4 +12,7 @@ public static class MiscHelper
 
     /// <summary>Converts a boolean to a byte (1 for true, 0 for false).</summary>
     [MethodImpl(MethodImplOptions.AggressiveInlining)] public static byte ToByte(this bool b) => b ? (byte)1 : (byte)0;
+
+    /// <summary>Converts a boolean to an int (1 for true, 0 for false).</summary>
+    [MethodImpl(MethodImplOptions.AggressiveInlining)] public static int ToInt(this bool b) => b ? 1 : 0;
 }

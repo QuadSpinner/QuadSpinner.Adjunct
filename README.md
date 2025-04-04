@@ -28,6 +28,7 @@ Essential, fast, and elegant. The core package includes:
 5.Square();             // 25
 9.SquareRoot();         // 3
 value.Clamp01();        // Clamp float between 0 and 1
+value.Clamp();		    // Clamp float between min and max, 0 and 1, by default
 ```
 
 ### 🔤 Strings
@@ -100,7 +101,7 @@ var brush = WPF.GetBrush(BrushName.Blue, BrushSet.Muted);
 Disable animations globally at runtime:
 
 ```csharp
-QuadSpinner.Adjunct.WPF.Features.DisableAnimations = true;
+QuadSpinner.Adjunct.WPF.DisableAnimations = true;
 ```
 
 ---

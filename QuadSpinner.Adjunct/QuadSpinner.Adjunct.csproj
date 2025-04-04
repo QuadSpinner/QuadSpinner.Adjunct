@@ -18,6 +18,7 @@
     <Copyright>Copyright (C) 2022-2025 QuadSpinner.</Copyright>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <Version>1.0.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>

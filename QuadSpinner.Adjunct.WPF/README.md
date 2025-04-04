@@ -75,7 +75,7 @@ BitmapSource bmp = imageBytes.ToBitmapSource(256);
 To disable animations globally:
 
 ```csharp
-QuadSpinner.Adjunct.WPF.Features.DisableAnimations = true;
+QuadSpinner.Adjunct.WPF.DisableAnimations = true;
 ```
 
 ---
@@ -83,7 +83,11 @@ QuadSpinner.Adjunct.WPF.Features.DisableAnimations = true;
 ## 🧭 Namespace
 
 ```csharp
-using QuadSpinner.Adjunct.WPF;
+using QuadSpinner.Adjunct;
+
+//or
+
+using static QuadSpinner.Adjunct.WPF;
 ```
 
 ---

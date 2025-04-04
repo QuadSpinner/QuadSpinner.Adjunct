@@ -1,13 +1,15 @@
 ﻿using System.Windows;
 using System.Windows.Media.Animation;
 
-namespace QuadSpinner.Adjunct.WPF;
+namespace QuadSpinner.Adjunct;
 
 public static partial class WPF
 {
+    public static bool DisableAnimations { get; set; }
+
     public static void FadeOutAndCollapse(this FrameworkElement element, double durationInSeconds = 0.5)
     {
-        if (Features.DisableAnimations)
+        if (DisableAnimations)
         {
             element.Collapse();
             element.Opacity = 0;
@@ -34,7 +36,7 @@ public static partial class WPF
 
     public static void FadeOut(this FrameworkElement element, double durationInSeconds = 0.5, double to = 0.0)
     {
-        if (Features.DisableAnimations)
+        if (DisableAnimations)
         {
             element.Opacity = to;
             return;
@@ -59,7 +61,7 @@ public static partial class WPF
 
     public static void FadeIn(this FrameworkElement element, double durationInSeconds = 0.2, double to = 1.0)
     {
-        if (Features.DisableAnimations)
+        if (DisableAnimations)
         {
             element.Opacity = to;
             return;
@@ -84,7 +86,7 @@ public static partial class WPF
 
     public static void FadeInAndShow(this FrameworkElement element, double durationInSeconds = 0.15, double delay = 0)
     {
-        if (Features.DisableAnimations)
+        if (DisableAnimations)
         {
             element.Visible();
             element.Opacity = 1;

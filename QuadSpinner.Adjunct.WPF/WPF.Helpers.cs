@@ -1,5 +1,6 @@
 ﻿using System.Runtime.CompilerServices;
 using System.Windows;
+using System.Windows.Controls;
 using System.Windows.Controls.Primitives;
 
 namespace QuadSpinner.Adjunct.WPF;
@@ -19,7 +20,7 @@ internal static partial class WPF
     internal static Visibility ToVisibility(this bool value) => value ? Visibility.Visible : Visibility.Collapsed;
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
-    internal static bool IsChecked(this CheckBox chk) => chk.Checked == true;
+    internal static bool IsChecked(this CheckBox chk) => chk.IsChecked == true;
 
     internal static bool IsChecked(this ToggleButton chk) => chk.IsChecked == true;
 

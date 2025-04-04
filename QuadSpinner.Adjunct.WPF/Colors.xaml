@@ -1,0 +1,57 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:PresentationOptions="http://schemas.microsoft.com/winfx/2006/xaml/presentation/options"
+                    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                    mc:Ignorable="PresentationOptions">
+
+    <SolidColorBrush x:Key="Accent-Primary" PresentationOptions:Freeze="True" Color="#ffc900" />
+    <SolidColorBrush x:Key="Accent-Secondary" PresentationOptions:Freeze="True" Color="#47b4b3" />
+    <SolidColorBrush x:Key="Accent-Purple" PresentationOptions:Freeze="True" Color="#6f459e" />
+    <SolidColorBrush x:Key="Accent-Blue" PresentationOptions:Freeze="True" Color="#38A6FF" />
+    <SolidColorBrush x:Key="Accent-Teal" PresentationOptions:Freeze="True" Color="#47b4b3" />
+    <SolidColorBrush x:Key="Accent-Green" PresentationOptions:Freeze="True" Color="#6d9258" />
+    <SolidColorBrush x:Key="Accent-Yellow" PresentationOptions:Freeze="True" Color="#cacd46" />
+    <SolidColorBrush x:Key="Accent-Orange" PresentationOptions:Freeze="True" Color="#dc704a" />
+    <SolidColorBrush x:Key="Accent-Red" PresentationOptions:Freeze="True" Color="#dc4a4a" />
+    <SolidColorBrush x:Key="Accent-Magenta" PresentationOptions:Freeze="True" Color="#D94F91" />
+    <SolidColorBrush x:Key="Accent-Gray" PresentationOptions:Freeze="True" Color="#A2C5D2" />
+    <SolidColorBrush x:Key="Accent-Bright" PresentationOptions:Freeze="True" Color="#DDEDF2" />
+
+    <SolidColorBrush x:Key="Accent-Strong-Primary" PresentationOptions:Freeze="True" Color="#aa8600" />
+    <SolidColorBrush x:Key="Accent-Strong-Secondary" PresentationOptions:Freeze="True" Color="#207877" />
+    <SolidColorBrush x:Key="Accent-Strong-Purple" PresentationOptions:Freeze="True" Color="#421f69" />
+    <SolidColorBrush x:Key="Accent-Strong-Blue" PresentationOptions:Freeze="True" Color="#1969aa" />
+    <SolidColorBrush x:Key="Accent-Strong-Teal" PresentationOptions:Freeze="True" Color="#207877" />
+    <SolidColorBrush x:Key="Accent-Strong-Green" PresentationOptions:Freeze="True" Color="#537a3d" />
+    <SolidColorBrush x:Key="Accent-Strong-Yellow" PresentationOptions:Freeze="True" Color="#a8ab31" />
+    <SolidColorBrush x:Key="Accent-Strong-Orange" PresentationOptions:Freeze="True" Color="#933f21" />
+    <SolidColorBrush x:Key="Accent-Strong-Red" PresentationOptions:Freeze="True" Color="#932121" />
+    <SolidColorBrush x:Key="Accent-Strong-Magenta" PresentationOptions:Freeze="True" Color="#912358" />
+    <SolidColorBrush x:Key="Accent-Strong-Bright" PresentationOptions:Freeze="True" Color="#DDEDF2" />
+
+    <SolidColorBrush x:Key="Accent-Muted-Primary" PresentationOptions:Freeze="True" Color="#C0AC66" />
+    <SolidColorBrush x:Key="Accent-Muted-Secondary" PresentationOptions:Freeze="True" Color="#75B8B8" />
+    <SolidColorBrush x:Key="Accent-Muted-Purple" PresentationOptions:Freeze="True" Color="#7C6495" />
+    <SolidColorBrush x:Key="Accent-Muted-Blue" PresentationOptions:Freeze="True" Color="#77A8CF" />
+    <SolidColorBrush x:Key="Accent-Muted-Gray" PresentationOptions:Freeze="True" Color="#566876" />
+    <SolidColorBrush x:Key="Accent-Muted-Teal" PresentationOptions:Freeze="True" Color="#68BDBD" />
+    <SolidColorBrush x:Key="Accent-Muted-Green" PresentationOptions:Freeze="True" Color="#95CC7A" />
+    <SolidColorBrush x:Key="Accent-Muted-Yellow" PresentationOptions:Freeze="True" Color="#CBCD77" />
+    <SolidColorBrush x:Key="Accent-Muted-Orange" PresentationOptions:Freeze="True" Color="#C28A75" />
+    <SolidColorBrush x:Key="Accent-Muted-Red" PresentationOptions:Freeze="True" Color="#BC7878" />
+    <SolidColorBrush x:Key="Accent-Muted-Magenta" PresentationOptions:Freeze="True" Color="#CF81A6" />
+    <SolidColorBrush x:Key="Accent-Muted-Bright" PresentationOptions:Freeze="True" Color="#A9B7BB" />
+
+    <SolidColorBrush x:Key="Accent-Transparent-Primary" PresentationOptions:Freeze="True" Color="#66ffc900" />
+    <SolidColorBrush x:Key="Accent-Transparent-Secondary" PresentationOptions:Freeze="True" Color="#6647b4b3" />
+    <SolidColorBrush x:Key="Accent-Transparent-Purple" PresentationOptions:Freeze="True" Color="#666f459e" />
+    <SolidColorBrush x:Key="Accent-Transparent-Blue" PresentationOptions:Freeze="True" Color="#6638A6FF" />
+    <SolidColorBrush x:Key="Accent-Transparent-Teal" PresentationOptions:Freeze="True" Color="#6647b4b3" />
+    <SolidColorBrush x:Key="Accent-Transparent-Green" PresentationOptions:Freeze="True" Color="#666d9258" />
+    <SolidColorBrush x:Key="Accent-Transparent-Yellow" PresentationOptions:Freeze="True" Color="#66cacd46" />
+    <SolidColorBrush x:Key="Accent-Transparent-Orange" PresentationOptions:Freeze="True" Color="#66dc704a" />
+    <SolidColorBrush x:Key="Accent-Transparent-Red" PresentationOptions:Freeze="True" Color="#66dc4a4a" />
+    <SolidColorBrush x:Key="Accent-Transparent-Magenta" PresentationOptions:Freeze="True" Color="#66D94F91" />
+    <SolidColorBrush x:Key="Accent-Transparent-Gray" PresentationOptions:Freeze="True" Color="#66A2C5D2" />
+    <SolidColorBrush x:Key="Accent-Transparent-Bright" PresentationOptions:Freeze="True" Color="#66DDEDF2" />
+</ResourceDictionary>
